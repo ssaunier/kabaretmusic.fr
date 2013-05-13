@@ -1,4 +1,5 @@
 #!/bin/sh
+cd `dirname $BASH_SOURCE`
 HOST="ftp.kabaretmusic.fr"
 USER=kabaretmusic
 PASSWORD=`security find-internet-password -l "$HOST" -g 2>&1 | grep "password" | cut -d \\" -f 2`
