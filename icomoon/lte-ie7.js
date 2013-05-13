@@ -9,9 +9,10 @@ window.onload = function() {
 			'icon-facebook' : '&#x66;',
 			'icon-soundcloud' : '&#x73;',
 			'icon-youtube' : '&#x79;',
-			'icon-ipod' : '&#x6d;',
+			'icon-twitter' : '&#x74;',
 			'icon-headphones' : '&#x68;',
-			'icon-envelope' : '&#x21;'
+			'icon-envelope' : '&#x6d;',
+			'icon-ipod' : '&#x69;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;
