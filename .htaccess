@@ -1,0 +1,15 @@
+SetEnv PHP_VER 5_TEST
+SetEnv REGISTER_GLOBALS 0
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} "img/" [OR]
+RewriteCond %{REQUEST_URI} "favicon.ico"
+RewriteRule (.*) $1 [L]
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/$
+RewriteRule  (.+) / [L,R=301]
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^kabaretmusic.fr
+RewriteRule (.*) http://www.kabaretmusic.fr [R=301,L]
