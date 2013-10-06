@@ -1,12 +1,5 @@
 /* Borrowed from https://github.com/orderedlist/minimal/blob/master/stylesheets/styles.css */
 
-body {
-  padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
-  font-weight:300;
-}
-
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
