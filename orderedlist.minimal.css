@@ -97,8 +97,9 @@ img {
 }
 
 header {
-  width:270px;
+  width:370px;
   display: inline-block;
+  text-align: center;
 }
 
 header ul {
@@ -111,7 +112,7 @@ strong {
 }
 
 section.image {
-  width:500px;
+  width:410px;
   float:right;
   padding-bottom:50px;
 }
@@ -139,21 +140,17 @@ footer {
   div.wrapper {
     width:auto;
     margin:0;
+    text-align: center;
   }
 
   header, section, section.image, footer {
     float:none;
     position:static;
     width:auto;
-  }
-
-  header {
-    padding-right:320px;
+    text-align: center;
   }
 
   section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
   }
