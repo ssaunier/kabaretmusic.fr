@@ -72,7 +72,7 @@ header .social ul li {
 }
 .wrapper {
   border-top: 2em black solid;
-  padding: 4em 2em;
+  padding: 4em 0;
 }
 .concerts-wrapper {
   background: url(img/empty.jpg) no-repeat center;
@@ -83,7 +83,7 @@ header .social ul li {
 }
 .concerts {
   padding: 2em;
-  background-color: rgba(250, 250, 250, .7);
+  background-color: rgba(250, 250, 250, .8);
 }
 .sons-wrapper {
   background-color: #eee;
