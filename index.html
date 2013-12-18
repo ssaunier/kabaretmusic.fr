@@ -1,109 +1,90 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Kabaret est une formation musicale parisienne d'électro cabaret." />
-  <title>Kabaret - Électro-Cabaret</title>
-  <link rel="shortcut icon" type="image/png" href="favicon.ico" />
-  <link rel="stylesheet" type="text/css" href="orderedlist.minimal.css">
-  <link rel="stylesheet" type="text/css" href="icomoon/style.css">
-  <link href="http://fonts.googleapis.com/css?family=Tangerine:700|Source+Sans+Pro:200|Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-  <meta name="google-site-verification" content="dnQ7Lrf5uZX7-rM9eM2kRG-bG_upCuigwRHyYNlbsKg" />
-  <style type="text/css">
-    body {
-      font-size: 16px;
-      background-color: whitesmoke;
-      background-image: url(data:image/png;base64,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);
-      padding:50px;
-      font:14px/1.7 "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-      color:#333;
-      font-weight:300;
-    }
-    h1 { font-family: 'Tangerine', cursive; font-size: 64px; margin-top: 0.8em; }
-    .red { color: #a51718; }
-    .icon-links { text-align: center; margin-top: 3em; }
-    .icon-link {
-      font-size: 24px;
-      margin-right: 0.5em;
-      color:  rgb(68, 68, 68);
-    }
-    .icon-link:last-child { margin-right: 0;}
-    .icon-link:hover { color: #a51718; }
-    .icon-link.icon-facebook { font-size: 20px; vertical-align: 2px; }
-    .icon-link.icon-soundcloud { font-size: 30px; vertical-align: -2px; margin-right: 0.35em; }
-    .soundcloud-widget { margin-top: 1em; }
-    h2 { margin-top: 1em; font-size: 24px; font-family: "Source Sans Pro"; }
-    p { text-align: justify; }
-    .musicians { list-style-type: none; padding-left: 0; }
-    .musicians li:before { content: "★ "; font-size: 1.5em; }
-    .center { text-align: center; }
-  </style>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="dnQ7Lrf5uZX7-rM9eM2kRG-bG_upCuigwRHyYNlbsKg" />
+    <title>Kabaret - Électro-Cabaret - Paris</title>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans|Oswald:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="icomoon/style.css">
+  </head>
+  <body>
+    <div class="header-wrapper">
+      <header>
+        <h1>KABARET</h1>
+        <nav>
+          <ul>
+            <li><a href="#concerts">Concerts</a></li>
+            <li><a href="#sons">Sons</a></li>
+            <li><a href="#musiciens">Musiciens</a></li>
+            <li><a href="#presse">Presse</a></li>
+            <li>
+              <a class="download" href="https://docs.google.com/file/d/0B70vE4oxpMlmLUNON3FPOHdIN1k/edit?usp=sharing&amp;pli=1">Fiche technique</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="social">
+          <ul>
+            <li><a href="https://youtube.com/KabaretOfficiel" class="icon-link icon-youtube" title="Regardez Kabaret sur Youtube"></a></li>
+            <li><a href="https://soundcloud.com/KabaretOfficiel" class="icon-link icon-soundcloud" title="Écoutez Kabaret sur Soundcloud"></a></li>
+            <li><a href="https://facebook.com/KomeToTheKabaret" class="icon-link icon-facebook" title="Suivez Kabaret sur Facebook"></a></li>
+            <li><a href="https://twitter.com/KabaretOfficiel" class="icon-link icon-twitter" title="Suivez Kabaret sur Twitter"></a></li>
+            <li><a href="mailto:contact@kabaretmusic.fr" class="icon-link icon-envelope" title="Contactez le groupe par mail"></a></li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </header>
+    </div>
+    <div class="big-image cover"></div>
 
-  <div class="wrapper">
-    <header>
-      <h1>Kabaret</h1>
-      <h2 class="red">Électro Cabaret - Paris</h2>
-      <p class="view icon-links">
-        <a href="https://youtube.com/KabaretOfficiel" class="icon-link icon-youtube" title="Regardez Kabaret sur Youtube"></a>
-        <a href="https://soundcloud.com/KabaretOfficiel" class="icon-link icon-soundcloud" title="Écoutez Kabaret sur Soundcloud"></a>
-        <a href="https://facebook.com/KomeToTheKabaret" class="icon-link icon-facebook" title="Suivez Kabaret sur Facebook"></a>
-        <a href="https://twitter.com/KabaretOfficiel" class="icon-link icon-twitter" title="Suivez Kabaret sur Twitter"></a>
-        <a href="mailto:contact@kabaretmusic.fr" class="icon-link icon-envelope" title="Contactez le groupe par mail"></a>
-      </p>
-    </header>
-    <section class="image">
-      <img src="img/kabaret.jpg" width="400" alt="Kabaret" />
-    </section>
-    <section style="clear: both">
-      <h2>Dates</h2>
-      <script type='text/javascript' src='http://www.bandsintown.com/javascripts/bit_widget.js'></script><a href="http://www.bandsintown.com/Kabaret" class="bit-widget-initializer" data-artist="Kabaret">Bandsintown</a>
-    </section>
-    <section>
-      <h2>Aperçu musical</h2>
-      <iframe class="soundcloud-widget" width="100%" height="320" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F30108575&amp;color=a51718&amp;auto_play=false&amp;show_artwork=true"></iframe>
-    </section>
-    <section>
-      <h2>En Live</h2>
-      <div id="fb-root"></div> <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-post" data-href="https://www.facebook.com/photo.php?v=10202267959437480" data-width="100%"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/photo.php?v=10202267959437480">Post</a> by <a href="https://www.facebook.com/kometothekabaret">Kabaret</a>.</div></div>
-    </section>
-    <section>
-      <h2>Concept</h2>
-      <p>
-        <a href="/">Kabaret</a>, cʼest un show festif où lʼon danse, où lʼon vient écouter des chansons, où lʼon se laisse sublimer par lʼesprit dʼantan et le parfum de la Belle Époque, et surtout dʼoù lʼon ressort avec le sourire et lʼenvie dʼenﬁler redingote ou bas résilles pour se mettre aux claquettes ! Cʼest la confrontation de lʼancien au nouveau, la mise en présence de différentes générations et la création dʼun décalage loufoque . Au début du siècle dernier, le cabaret est un lieu dʼamusement et dʼévasion : on y vient pour échapper au quotidien, sʼévader, fantasmer, rêver... Cʼest lʼatmosphère qui nous est chère et que nous voulons recréer, en y ajoutant
-        lʼ<a href="http://www.faggydux.fr">électro French Touch</a> qui fait vibrer les danceﬂoors actuels.
-      </p>
-    </section>
-    <section>
-      <h2>Influences et Styles</h2>
-      <p>
-      D’une part, il y a la chanson de Cabaret, le Ragtime, le Dixieland, et le Charleston et d’autre part, la musique électronique française pulsante, alias la French Touch. Ce sont les principales inﬂuences musicales du projet. Mais ce dernier ne saurait se résumer à ces quelques styles. En demi-teinte : le jazz, la pop, le rock, le funk, la kalinka et même la musique classique. Le projet est entre-mêlé d’allusions stylistiques. Notre souhait est de jouer avec les codes, les marier, les détourner, user de l’humour ou de la satire comme il en était question au temps du Cabaret en Europe. Non seulement nous voulons faire vibrer notre public, mais aussi le faire passer du rire au larme, l’investir dans le show, le bousculer. L’interpeller, dans les deux sens du termes : parmi nous, il y a un bonimenteur, un chauffeur de salle, véritable emcee. Pendant les concerts, l’accent est mis sur la surprise. Beaucoup de morceaux sont remaniés, adaptés aux conditions. C’est là où la partie électronique s’émancipe davantage, telle une vraie machine à danser. Le groupe est multiforme, passant sans arrêt des instruments acoustiques aux machines, en passant par quelques épisodes de DJ set.
-      </p>
-    </section>
-    <section>
-      <h2>Les musiciens</h2>
-      <ul class="musicians">
-        <li><strong>Gabriel Gosse</strong>, notre batteur fou, est issu du rock et du jazz. Il est également guitariste et percussionniste.</li>
-        <li><strong>Lucas Rémond</strong> nʼa peur de rien. Il est saxophoniste et chanteur.</li>
-        <li><a href="http://www.faggydux.fr"><strong>Yoann Saunier</strong></a> est lʼhomme des (sex)machines. Co-fondateur du groupe, il est guitariste et bassiste. Il jouera les synthés basse et fera la programmation.</li>
-        <li><strong>Joana Schweizer</strong>, notre vedette chanteuse, est la part de féminité dans ce groupe de clowns. Elle est également pianiste (classique / jazz) et danseuse contemporaine</li>
-        <li><a href="http://www.faggydux.fr"><strong>Guillaume Le Hénaff</strong></a>, notre playboy, est le clarinettiste. Co-fondateur du groupe, il seconde Yoann dans la gestion des machines, complétant le duo de DJ.</li>
-        <li><strong>Thibaud Lalanne</strong>, clown triste en direct de la lune, est le pianiste. Son truc, cʼest le piano classique et le ragtime.</li>
-        <li><strong>Guilhem Angot</strong> est le doyen. Son truc, cʼest le jazz, le trombone, et la fête.</li>
-        <li><strong>Valérian Langlais</strong> nʼest pas anglais. Il est trompettiste jazzeux, fonkeux, et musicien touche à tout.</li>
-      </ul>
-    </section>
-    <section>
-      <a class="download" href="https://docs.google.com/file/d/0B70vE4oxpMlmLUNON3FPOHdIN1k/edit?usp=sharing&amp;pli=1">
-        Télécharger la <strong>fiche technique</strong>
-      </a>
-    </section>
-  </div>
+    <a name="concerts" />
+    <div class="wrapper cover concerts-wrapper">
+      <div class="inner concerts">
+        <h2>Concerts à venir</h2>
+        <script type='text/javascript' src='http://www.bandsintown.com/javascripts/bit_widget.js'></script><a href="http://www.bandsintown.com/Kabaret" class="bit-widget-initializer" data-artist="Kabaret">Bandsintown</a>
+      </div>
+    </div>
 
-  <script>
+    <a name="sons" />
+    <div class="wrapper cover sons-wrapper">
+      <div class="inner sons">
+        <h2>Aperçu musical</h2>
+        <iframe class="soundcloud-widget" width="100%" height="320" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F30108575&amp;color=a51718&amp;auto_play=false&amp;show_artwork=true"></iframe>
+      </div>
+    </div>
+
+    <a name="musiciens" />
+    <div class="wrapper cover musiciens-wrapper">
+      <div class="inner inner-black musiciens">
+        <ul class="musicians">
+          <li><strong>Gabriel Gosse</strong>, notre batteur fou, est issu du rock et du jazz. Il est également guitariste et percussionniste.</li>
+          <li><strong>Lucas Rémond</strong> nʼa peur de rien. Il est saxophoniste et chanteur.</li>
+          <li><a href="http://www.faggydux.fr"><strong>Yoann Saunier</strong></a> est lʼhomme des (sex)machines. Co-fondateur du groupe, il est guitariste et bassiste. Il jouera les synthés basse et fera la programmation.</li>
+          <li><strong>Joana Schweizer</strong>, notre vedette chanteuse, est la part de féminité dans ce groupe de clowns. Elle est également pianiste (classique / jazz) et danseuse contemporaine</li>
+          <li><a href="http://www.faggydux.fr"><strong>Guillaume Le Hénaff</strong></a>, notre playboy, est le clarinettiste. Co-fondateur du groupe, il seconde Yoann dans la gestion des machines, complétant le duo de DJ.</li>
+          <li><strong>Thibaud Lalanne</strong>, clown triste en direct de la lune, est le pianiste. Son truc, cʼest le piano classique et le ragtime.</li>
+          <li><strong>Guilhem Angot</strong> est le doyen. Son truc, cʼest le jazz, le trombone, et la fête.</li>
+          <li><strong>Valérian Langlais</strong> nʼest pas anglais. Il est trompettiste jazzeux, fonkeux, et musicien touche à tout.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="wrapper cover concept-wrapper">
+      <div class="inner inner-black concept">
+        <h2>Concept</h2>
+        <p>
+          <a href="/">Kabaret</a>, cʼest un show festif où lʼon danse, où lʼon vient écouter des chansons, où lʼon se laisse sublimer par lʼesprit dʼantan et le parfum de la Belle Époque, et surtout dʼoù lʼon ressort avec le sourire et lʼenvie dʼenﬁler redingote ou bas résilles pour se mettre aux claquettes ! Cʼest la confrontation de lʼancien au nouveau, la mise en présence de différentes générations et la création dʼun décalage loufoque . Au début du siècle dernier, le cabaret est un lieu dʼamusement et dʼévasion : on y vient pour échapper au quotidien, sʼévader, fantasmer, rêver... Cʼest lʼatmosphère qui nous est chère et que nous voulons recréer, en y ajoutant
+          lʼ<a href="http://www.faggydux.fr">électro French Touch</a> qui fait vibrer les danceﬂoors actuels.
+        </p>
+
+        <h2>Influences et Styles</h2>
+        <p>
+        D’une part, il y a la chanson de Cabaret, le Ragtime, le Dixieland, et le Charleston et d’autre part, la musique électronique française pulsante, alias la French Touch. Ce sont les principales inﬂuences musicales du projet. Mais ce dernier ne saurait se résumer à ces quelques styles. En demi-teinte : le jazz, la pop, le rock, le funk, la kalinka et même la musique classique. Le projet est entre-mêlé d’allusions stylistiques. Notre souhait est de jouer avec les codes, les marier, les détourner, user de l’humour ou de la satire comme il en était question au temps du Cabaret en Europe. Non seulement nous voulons faire vibrer notre public, mais aussi le faire passer du rire au larme, l’investir dans le show, le bousculer. L’interpeller, dans les deux sens du termes : parmi nous, il y a un bonimenteur, un chauffeur de salle, véritable emcee. Pendant les concerts, l’accent est mis sur la surprise. Beaucoup de morceaux sont remaniés, adaptés aux conditions. C’est là où la partie électronique s’émancipe davantage, telle une vraie machine à danser. Le groupe est multiforme, passant sans arrêt des instruments acoustiques aux machines, en passant par quelques épisodes de DJ set.
+        </p>
+      </div>
+    </div>
+    <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -112,5 +93,5 @@
     ga('create', 'UA-40899302-1', 'kabaretmusic.fr');
     ga('send', 'pageview');
   </script>
-</body>
+  </body>
 </html>

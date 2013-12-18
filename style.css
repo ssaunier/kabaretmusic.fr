@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  height: 0;
+  font-family: 'Droid+Sans', 'Arial';
+  font-weight: 300;
+}
+.cover {
+  width: 100% !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+}
+.big-image {
+  height: 700px;
+  background: url(img/scene.jpg) no-repeat center fixed;
+}
+.header-wrapper {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  background-color: rgba(17, 17, 17, .7);
+  z-index: 2;
+  color: white;
+}
+header, h1, h2, h3 {
+  font-family: 'Oswald', 'Helvetica', arial, sans-serif;
+}
+header {
+  padding: 20px 50px;
+  line-height: 1.2em;
+  font-weight: 400;
+  font-size: 1.4em;
+}
+header h1 {
+  float: left;
+  letter-spacing: 2px;
+  margin-right: 4em;
+}
+header ul {
+  list-style-type: none;
+  float: left;
+  position: relative;
+  bottom: -3px;
+  padding-left: 0;
+}
+header ul li {
+  display: inline-block;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  margin-right: 2em;
+}
+header a {
+  color: #ccc;
+  text-decoration: none;
+}
+header a:hover {
+  color: white;
+}
+.social {
+  float: right;
+  font-size: 1.2em;
+}
+header .social ul {
+  bottom: 2px;
+}
+header .social ul li {
+  margin-left: 4px;
+  margin-right: 0;
+}
+.clear {
+  clear: both;
+}
+.wrapper {
+  border-top: 2em black solid;
+  padding: 4em 2em;
+}
+.concerts-wrapper {
+  background: url(img/empty.jpg) no-repeat center;
+}
+.inner {
+  margin: auto;
+  max-width: 800px;
+}
+.concerts {
+  padding: 2em;
+  background-color: rgba(250, 250, 250, .7);
+}
+.sons-wrapper {
+  background-color: #eee;
+}
+.sons {}
+.musiciens-wrapper {
+  background: url(img/musiciens.jpg) no-repeat top center;
+}
+
+.inner-black {
+  padding: 2em;
+  background-color: rgba(0, 0, 0, .6);
+  color: #eee;
+  font-size: 0.9em;
+  line-height: 1.4em;
+}
+
+.inner-black a {
+  color: #efefef;
+}
+
+.musiciens-wrapper ul { list-style-type: none; padding-left: 0; }
+.musiciens-wrapper strong {
+  font-family: 'Oswald', 'Helvetica', arial, sans-serif;
+}
+.musiciens-wrapper li { padding: 0.4em }
+
+.concept-wrapper {
+  background: url(img/pink.jpg) no-repeat top center;
+}
