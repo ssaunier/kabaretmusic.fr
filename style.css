@@ -67,6 +67,20 @@ header .social ul li {
   margin-left: 4px;
   margin-right: 0;
 }
+
+
+.featured-video {
+  margin: auto;
+  width: 560px;
+  padding-top: 220px;
+}
+#featured-video-inner {
+  height: 315px;
+  background: url(img/play.png) black no-repeat center;
+  opacity: 0.2;
+  cursor: pointer;
+}
+
 .clear {
   clear: both;
 }

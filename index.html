@@ -36,7 +36,19 @@
         <div class="clear"></div>
       </header>
     </div>
-    <div class="big-image cover"></div>
+    <div class="big-image cover">
+      <div class="featured-video">
+        <div id="featured-video-inner">
+          <iframe id="youtube-video" style="display: none" width="560" height="315" src="//www.youtube.com/embed/GG2tnWZQy3E?autoplay=1" frameborder="0" allowfullscreen></iframe>
+          <script type="text/javascript">
+            document.getElementById("featured-video-inner").addEventListener('click', function() {
+              document.getElementById('youtube-video').style.display = "block";
+              document.getElementById("featured-video-inner").style.opacity = 1;
+            });
+          </script>
+        </div>
+      </div>
+    </div>
 
     <a name="concerts" />
     <div class="wrapper cover concerts-wrapper">
