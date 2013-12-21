@@ -15,11 +15,8 @@ body {
   background: url(img/scene.jpg) no-repeat center fixed;
 }
 .header-wrapper {
-  position: absolute;
-  top: 20px;
   width: 100%;
   background-color: rgba(17, 17, 17, .7);
-  z-index: 2;
   color: white;
 }
 header, h1, h2, h3 {
@@ -34,7 +31,7 @@ header {
 header h1 {
   float: left;
   letter-spacing: 2px;
-  margin-right: 4em;
+  margin-right: 2em;
 }
 header ul {
   list-style-type: none;
@@ -71,14 +68,18 @@ header .social ul li {
 
 .featured-video {
   margin: auto;
-  width: 560px;
-  padding-top: 220px;
+  max-width: 840px;
+  width: 80%;
+  padding-top: 30px;
 }
 #featured-video-inner {
-  height: 315px;
+  height: 472px;
   background: url(img/play.png) black no-repeat center;
-  opacity: 0.2;
+  opacity: 0.3;
   cursor: pointer;
+}
+#youtube-video {
+  display: none;
 }
 
 .clear {
