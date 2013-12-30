@@ -45,7 +45,9 @@
             function playVideo() {
               document.getElementById('youtube-video').style.display = "block";
               document.getElementById("featured-video-inner").style.opacity = 1;
-              player_video.playVideo();
+              setTimeout(function() {
+                player_video.playVideo();
+              }, 1000);
             }
             var video = document.getElementById("featured-video-inner");
             video.addEventListener && video.addEventListener('click', playVideo);
