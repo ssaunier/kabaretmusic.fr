@@ -3,6 +3,7 @@ body {
   height: 0;
   font-family: 'Droid+Sans', 'Arial';
   font-weight: 300;
+  background-color: black;
 }
 .cover {
   width: 100% !important;
@@ -11,7 +12,7 @@ body {
   background-size: cover !important;
 }
 .big-image {
-  height: 700px;
+  height: 740px;
   background: url(img/scene.jpg) no-repeat center fixed;
 }
 .header-wrapper {
@@ -61,7 +62,7 @@ header .social ul {
   bottom: 2px;
 }
 header .social ul li {
-  margin-left: 4px;
+  margin-left: 6px;
   margin-right: 0;
 }
 
@@ -85,8 +86,8 @@ header .social ul li {
 .clear {
   clear: both;
 }
+.bar { border-top: 2em black solid; }
 .wrapper {
-  border-top: 2em black solid;
   padding: 4em 0;
 }
 .concerts-wrapper {
@@ -103,26 +104,33 @@ header .social ul li {
 .sons-wrapper {
   background-color: #eee;
 }
-.sons {}
-.musiciens-wrapper {
-  background: url(img/musiciens.jpg) no-repeat top center;
+.live-wrapper {
+  background-color: black;
+}
+.live {
+  color: white;
 }
 
 .inner-black {
   padding: 2em;
-  background-color: rgba(0, 0, 0, .6);
+  background-color: rgba(0, 0, 0, .85);
   color: #eee;
   font-size: 0.9em;
-  line-height: 1.4em;
+  line-height: 1.8em;
 }
 
 .inner-black a {
   color: #efefef;
 }
 
+.musiciens-wrapper {
+  background: url(img/musiciens.jpg) no-repeat top center;
+}
 .musiciens-wrapper ul { list-style-type: none; padding-left: 0; }
 .musiciens-wrapper strong {
   font-family: 'Oswald', 'Helvetica', arial, sans-serif;
+  font-size: 120%;
+  letter-spacing: 1px;
 }
 .musiciens-wrapper li { padding: 0.4em }
 
