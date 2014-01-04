@@ -1,3 +1,60 @@
+/* Grid */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+[class*='col-'] {
+  float: left;
+  padding-right: 20px;
+}
+
+[class*='col-']:last-of-type {
+  padding-right: 0px;
+}
+
+.grid {
+  width: 100%;
+  max-width: 1140px;
+  min-width: 755px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-1-2 {
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  .grid {
+    width: 100%;
+    min-width: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  [class*='col-'] {
+    width: auto;
+    float: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+/* End grid */
+
 body {
   margin: 0;
   height: 0;
@@ -101,10 +158,7 @@ header .social ul li {
   padding: 2em;
   background-color: rgba(250, 250, 250, .8);
 }
-.sons-wrapper {
-  background-color: #eee;
-}
-.live-wrapper {
+.white-wrapper {
   background-color: #eee;
 }
 .inner-black {
@@ -114,9 +168,16 @@ header .social ul li {
   font-size: 0.9em;
   line-height: 1.8em;
 }
+.inner-white {
+  padding: 2em;
+}
 
 .inner-black a {
   color: #efefef;
+}
+
+.inner-white a {
+  color: #333;
 }
 
 .musiciens-wrapper {
