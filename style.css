@@ -194,3 +194,14 @@ header .social ul li {
 .concept-wrapper {
   background: url(img/pink.jpg) no-repeat top center;
 }
+.copyright {
+  width: 100%;
+  background-color: black;
+  color: #666;
+  text-align: center;
+  font-size: x-small;
+  margin: 1.2em 0;
+}
+.copyright a {
+  color: #666;
+}
