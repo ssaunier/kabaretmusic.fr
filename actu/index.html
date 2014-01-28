@@ -1,0 +1,17 @@
+---
+layout: default
+ambiance: bright
+---
+
+<div class="header-wrapper">
+  {% include menu.html %}
+</div>
+
+<div class="actu-container">
+  {% for post in site.posts %}
+    <h2>{{ post.title }}</h2>
+    <p class="date">{{ post.date | date_to_string }}</p>
+
+    <div class="content">{{ post.content}}</div>
+  {% endfor %}
+</div>
