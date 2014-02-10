@@ -203,7 +203,7 @@ header .social ul li {
 }
 .inner-black {
   padding: 2em;
-  background-color: rgba(0, 0, 0, .85);
+  background-color: rgba(0, 0, 0, .5);
   color: #eee;
   font-size: 0.9em;
   line-height: 1.8em;
