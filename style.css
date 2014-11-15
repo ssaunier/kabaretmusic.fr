@@ -114,8 +114,11 @@ header {
 header h1 {
   float: left;
   letter-spacing: 2px;
-  margin-right: 2em;
-  margin-top: 25px;
+  margin-right: 1em;
+  margin-top: 22px;
+}
+header h1 img {
+  height: 40px;
 }
 header ul {
   list-style-type: none;
