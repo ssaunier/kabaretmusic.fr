@@ -95,7 +95,7 @@ body.bright {
 }
 .big-image {
   height: 740px;
-  background: url(img/scene.jpg) no-repeat center fixed;
+  background: url(img/CD_HD_RVB_1080p.jpg) no-repeat center fixed;
 }
 .dark .header-wrapper {
   width: 100%;
@@ -172,7 +172,8 @@ header .social ul li {
   margin: auto;
   max-width: 840px;
   width: 80%;
-  padding-top: 30px;
+  padding-top: 57px;
+  padding-bottom: 114px;
 }
 #featured-video-inner {
   height: 472px;
