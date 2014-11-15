@@ -115,6 +115,7 @@ header h1 {
   float: left;
   letter-spacing: 2px;
   margin-right: 2em;
+  margin-top: 25px;
 }
 header ul {
   list-style-type: none;
