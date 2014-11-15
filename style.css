@@ -280,3 +280,65 @@ header .social ul li {
 .date {
   color: #999;
 }
+
+#mc_embed_signup {
+  color: white;
+  font-family: "Oswald","Helvetica",arial,sans-serif;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 2em;
+  padding: 6em 0;
+  background: rgba(0, 0, 0, .6);
+}
+
+#mc_embed_signup label {
+  display: block;
+  margin-bottom: 1em;
+}
+
+#mc_embed_signup input {
+  background: rgba(240, 240, 240, .7);
+  font-family: "Oswald","Helvetica",arial,sans-serif;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: black;
+    font-weight: 500;
+    line-height: 32px;
+    padding-left: 10px;
+    font-size: 16px;
+    transition: all 0.3s linear 0s;
+    width: 200px;
+}
+
+#mc_embed_signup input:hover, #mc_embed_signup input:focus {
+    background-color: rgba(240, 240, 240, .8);
+}
+
+#mc_embed_signup button {
+    background-color: rgba(240, 240, 240, .7);
+    font-family: "Oswald","Helvetica",arial,sans-serif;
+    border: 1px solid #0279c2;
+    border-radius: 2px;
+    font-weight: 400;
+    line-height: 28px;
+    transition: background-color 300ms ease-out 0s;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.42857;
+    padding: 5px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-top: 0px;
+}
+
+#mc_embed_signup button:hover {
+background-color: rgba(240, 240, 240, .8);
+}
