@@ -1,6 +1,0 @@
-SetEnv PHP_VER 5_TEST
-SetEnv REGISTER_GLOBALS 0
-
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^kabaretmusic.fr$
-RewriteRule (.*) http://www.kabaretmusic.fr [R=301,L]
