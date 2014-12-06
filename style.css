@@ -167,6 +167,32 @@ header .social ul li {
   margin-right: 0;
 }
 
+@media(max-width: 480px) {
+  header ul li {
+    margin-right: 0.5em;
+  }
+  header .social {
+    text-align: center;
+    float: none;
+  }
+
+  header .social ul li {
+    font-size: 1.1em;
+    margin: 0 0.3em;
+  }
+
+  header .social ul li:first-child {
+    margin-left: 0;
+  }
+
+  header .social ul li:last-child {
+  margin-right: 0;
+  }
+
+  header ul {
+    float: none;
+  }
+}
 
 .featured-video {
   margin: auto;
@@ -175,6 +201,13 @@ header .social ul li {
   padding-top: 57px;
   padding-bottom: 114px;
 }
+
+@media(max-width: 480px) {
+  .featured-video {
+    width: 100%;
+  }
+}
+
 #featured-video-inner {
   height: 472px;
   background: url(img/play.png) black no-repeat center;
@@ -194,6 +227,7 @@ header .social ul li {
 }
 .concerts-wrapper {
   background: url(img/empty.jpg) no-repeat center;
+  overflow: none;
 }
 .inner {
   margin: auto;
