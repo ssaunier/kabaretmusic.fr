@@ -37,7 +37,13 @@ you can use the generic selector below, but it's slower:
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 }
+.icon-itunes:before {
+    content: "\e600";
+}
 .icon-spotify:before {
+    content: "\e600";
+}
+.icon-deezer:before {
     content: "\e600";
 }
 .icon-facebook:before {
