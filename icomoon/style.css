@@ -27,7 +27,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-facebook, .icon-soundcloud, .icon-youtube, .icon-twitter, .icon-headphones, .icon-envelope, .icon-ipod {
+.icon-spotify, .icon-facebook, .icon-soundcloud, .icon-youtube, .icon-twitter, .icon-headphones, .icon-envelope, .icon-ipod {
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -36,6 +36,9 @@ you can use the generic selector below, but it's slower:
 	text-transform: none;
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
+}
+.icon-spotify:before {
+    content: "\e600";
 }
 .icon-facebook:before {
 	content: "\66";
