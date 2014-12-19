@@ -263,6 +263,11 @@ header .social ul li {
   font-size: 0.8em;
 }
 
+.platforms {
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+
 .platform {
   width: 33%;
   float: left;
