@@ -263,6 +263,32 @@ header .social ul li {
   font-size: 0.8em;
 }
 
+.platform {
+  width: 33%;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+}
+
+.platform a {
+  color: black;
+  text-decoration: none;
+}
+
+.platform a:hover {
+  color: #A61718;
+  transition: .5s;
+}
+
+.platform .icon-link {
+  font-size: 92px;
+}
+
+.platform .label {
+  margin-top: 10px;
+  display: block;
+}
+
 .musiciens-wrapper {
   background: url(img/musiciens.jpg) no-repeat top center;
 }
